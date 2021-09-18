@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Yanone+Kaffeesatz&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/* html{
+    min-height: 100vh;
+} */
+
+body{
+    background-color: rgb(202, 221, 236);
+    /* font-family: 'Kanit', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    background-color: rgb(41, 83, 160);
+}
+
+#nav-content{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-evenly;
+    /* flex: 1; */
+}
+
+#top-name{
+    font-size: 25px;
+}
+
+#cover{
+    flex: 1;
+}
+
+#cover-photo{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(81, 82, 78, 0.2)), url(images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#intro {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#intro-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 2.2px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    align-items: center;
+    font-weight: 600;
+}
+
+/* #intro-image{
+    height: 300px;
+} */
+
+#intro-content span{
+    font-size: 50px;
+    color: rgb(100, 193, 216);
+}
+
+#intro img{
+    width: 35%;
+}
+
+#aboutme-cover{
+    display: flex;
+    flex-direction: row;
+    /* padding; */
+    padding: 20px;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex: 1;
+    flex-wrap: wrap-reverse;
+}
+
+#aboutme-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    min-width: 400px;
+    width: 60%;
+    font-family: 'Kanit',sans-serif;
+}
+
+#aboutme-photo{
+    height: 300px;
+}
+
+/* #aboutme-content p{
+    margin-bottom: 10px;
+} */
+
+#marksTable, th, td, tr{
+    padding: 5px;
+    font-size: 25px;
+}
+
+td {
+    padding: 5px 35px;
+}
+
+#skills-cover, #hobbies-cover{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-box, .hobby-box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    min-width: 300px;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 20px;
+    height: 70%;
+    min-height: 275px;
+    line-height: 1.3;
+    font-size: 19px;
+    color: white;
+    background-color: rgb(75, 31, 158);
+}
+
+.skill-icon, .hobby-icon{
+    height: 100px;
+    padding-bottom: 15px;
+}
+
+#skills-container, #hobbies-container{
+    padding-top: 100px;
+    /* height: 90vh; */
+    flex: 1;
+}
+
+#skills-container h2, #hobbies-container h2{
+    font-size: 2rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.skill-box h3, .hobby-box h3{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.skill-box h4{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* #hobbies-container{
+    height: max-content;
+} */
+/* Experimental :) */
+
+.hobby-box{
+    min-width: 250px;
+    width: 20%;
+}
+
+#contact-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#links{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.link-icon{
+    height: 40px;
+    margin: 0px 5px;
+}
